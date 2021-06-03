@@ -34,7 +34,7 @@ page = request.read()
 
 soup = BeautifulSoup(page, 'html.parser')
 
-#table = soup.find_all('table')[2]
+# table = soup.find_all('table')[2]
 table = soup.find_all('table')[0]
 
 # paragraphs = table.find_all('p')
